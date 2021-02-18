@@ -1,0 +1,36 @@
+.content-about{
+    margin-top: -3%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    z-index: 2;
+    background-color:$thirdColor;
+    @include Mobile{
+        flex-direction: column;
+    }
+    img{
+        border:6px solid $thirdColor;
+        margin-top: -5%;
+        margin-right: 3%;
+        margin-left: 1%;
+        height: $widthei - 60;
+        border-radius: 10px;
+        box-shadow: 0 0 17px $maincolor;
+        @include Mobile{
+            height: 40%;
+            margin: -15% auto;
+            margin-bottom: 4%;
+            width: $widthei - 25 !important; 
+        }
+    }
+    .description-about{
+        margin-top: 3%;
+        h2{
+            color: $maincolor;
+        }
+    }
+}
+.vidio-About{
+    border: 10px solid $maincolor;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
