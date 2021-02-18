@@ -58,6 +58,23 @@ header {
   .carousel-caption h1 {
     color: #FFB93F; }
 
+.blog {
+  display: flex;
+  justify-content: space-between; }
+  .blog aside {
+    height: 400px;
+    width: 25%;
+    background-color: #fdfcf4;
+    margin: 1% auto; }
+  .blog .content {
+    width: 40%;
+    margin-top: 1%; }
+    .blog .content article {
+      width: 100%;
+      height: 300px;
+      background-color: #fdfcf4;
+      margin-bottom: 3%; }
+
 .content-about {
   margin-top: -3%;
   margin-bottom: 20px;
