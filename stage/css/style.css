@@ -114,6 +114,20 @@ header {
   .content-about img {
     margin-bottom: 15px; }
 
+hr {
+  position: relative;
+  text-align: center; }
+
+hr:after {
+  content: "";
+  position: absolute;
+  width: 65px;
+  height: 5px;
+  background: #f4c400;
+  left: 50%;
+  border-radius: 5px;
+  transform: translate(-24px, -3px); }
+
 .our-services {
   background-color: #f7F7F7;
   margin-top: 7%;
@@ -132,6 +146,12 @@ header {
 .section-titel {
   margin-bottom: 60px; }
 
+.Objectife {
+  background: #eee;
+  padding: 15px;
+  margin-bottom: 36px;
+  margin-top: 36px; }
+
 .counter {
   background-color: #f4c400;
   color: #fff;
@@ -145,7 +165,33 @@ header {
     background-color: #FFF;
     margin-bottom: 20px; }
 
-.team {
-  background-color: #333; }
+.owl-carousel {
+  width: 80%;
+  margin: auto; }
+  .owl-carousel .overlay {
+    z-index: -1; }
+  .owl-carousel .owl-item {
+    background-color: #f7F7F7;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-bottom: 40px; }
+    .owl-carousel .owl-item h4 {
+      color: #f4c400; }
+    .owl-carousel .owl-item a {
+      background-color: #fff;
+      border-radius: 25px;
+      width: 70px;
+      height: 70px;
+      padding: 10px;
+      color: #f4c400;
+      cursor: pointer; }
+    .owl-carousel .owl-item img {
+      display: block;
+      width: 60%;
+      height: 100%;
+      margin: auto;
+      margin-bottom: 30px;
+      background: #333;
+      padding: 13px; }
 
 /*# sourceMappingURL=style.css.map */
