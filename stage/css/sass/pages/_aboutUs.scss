@@ -1,36 +1,63 @@
 .content-about{
-    margin-top: -3%;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    z-index: 2;
-    background-color:$thirdColor;
+    top: -45px;
+    @include tablet{
+        top: -130px;
+    }
     @include Mobile{
-        flex-direction: column;
+        top: -60px;
+    }
+    background-color: #f7F7F7;
+    border-radius: 5px;
+    @include Mobile{
+        flex-direction: column-reverse;
+    }
+    @include tablet{
+        flex-direction: column-reverse;
+    }
+    @include large-devices{
+        flex-direction: column-reverse;
     }
     img{
-        border:6px solid $thirdColor;
-        margin-top: -5%;
-        margin-right: 3%;
-        margin-left: 1%;
-        height: $widthei - 60;
-        border-radius: 10px;
-        box-shadow: 0 0 17px $maincolor;
-        @include Mobile{
-            height: 40%;
-            margin: -15% auto;
-            margin-bottom: 4%;
-            width: $widthei - 25 !important; 
-        }
-    }
-    .description-about{
-        margin-top: 3%;
-        h2{
-            color: $maincolor;
-        }
+        margin-bottom: 15px;
     }
 }
-.vidio-About{
-    border: 10px solid $maincolor;
-    margin-top: 20px;
+.our-services{
+    background-color: #f7F7F7;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    .serve{
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+    i{
+        color: $maincolor;
+        line-height: 2em;
+    }
+}
+.section-titel{
+    margin-bottom: 60px;
+}
+.counter{
+    background-color: $maincolor;
+    color: #fff;
+    padding: 40px;
     margin-bottom: 20px;
+    img{
+        border:4px solid;
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        background-color: #FFF;
+        margin-bottom: 20px;
+    }
+}
+.team{
+    background-color: #333;
+    img{
+        
+    }
 }

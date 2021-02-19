@@ -2,6 +2,10 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 header{
+    top: 0;
+    img{
+        height: 44px;
+    }
     z-index: 9999;
     background-color:$thirdColor;
     .header-top{
@@ -19,6 +23,9 @@ header{
         color: rgb(0, 0 ,0);
         margin-left: 10px;
         font-size: 1.3em;
+        @include large-devices {
+            width: 12%;
+        }
         @include tablet{
             width: 12%;
         }
@@ -51,29 +58,46 @@ header{
     i.fa.fa-search {
         right: 3%;
         color: #c7c7c7;
+    }
+}
+.Our-slide{
+    margin-top: 90px;
+    .carousel-indicators{
         @include Mobile{
+            display: none;
         }
         @include tablet{
+            display: none;
         }
     }
-}
-
-
-.carousel-inner {
-    height: 450px;
-    @include Mobile{
-        height: 275px;
+    .carousel-control-prev,
+    .carousel-control-next {
+        z-index: 3;
     }
-}
-.carousel-control-prev,
-.carousel-control-next {
-    z-index: 3;
+    .content-slider {
+        height: 500px;
+        overflow: hidden;
+        @include Mobile{
+            height: 275px;
+        }
+    }
+    .carousel-caption{
+        top: 20%;
+        h1{
+            color: $maincolor;
+            @include Mobile{
+                font-size: 1.5rem;
+            }
+        }
+        h2{
+            @include Mobile{
+                font-size: 1rem;
+            }
+        }
+    }
+    
+    
 }
 
-.carousel-caption{
-    top: 20%;
-    h1{
-        color: $maincolor
-    }
-}
+
 
