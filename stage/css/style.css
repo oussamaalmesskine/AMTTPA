@@ -92,6 +92,81 @@ header {
   .footer a {
     color: #fff; }
 
+.blog {
+  display: flex;
+  justify-content: space-between; }
+  .blog aside {
+    height: max-content;
+    width: 25%;
+    border: 1px solid #eeeeee;
+    background: #fafaff;
+    padding: 30px;
+    margin: 1% auto; }
+    .blog aside .Categorie {
+      font-size: 18px;
+      line-height: 25px;
+      background: #f4c400;
+      text-align: center;
+      color: #fff;
+      padding: 8px 0px;
+      margin-bottom: 30px; }
+  .blog .content {
+    width: 65%;
+    margin-top: 1%;
+    margin-left: 3%; }
+    .blog .content article {
+      width: 100%;
+      height: max-content;
+      background-color: #ffffff;
+      box-shadow: 0 10px 40px -10px #00408033;
+      margin-bottom: 3%;
+      padding-bottom: 2%; }
+      .blog .content article .content-img {
+        width: 100%; }
+      .blog .content article .content-time {
+        height: max-content;
+        width: max-content;
+        padding: 10px 30px;
+        font-size: 20px;
+        background-color: #f4c400;
+        color: #fff;
+        margin-left: 3%;
+        font-weight: 900;
+        border-radius: 5px;
+        position: absolute;
+        margin-top: -60px; }
+        .blog .content article .content-time span {
+          display: block; }
+      .blog .content article .content-title {
+        margin: 3% 5%;
+        padding-top: 20px; }
+      .blog .content article .content-paragraphe {
+        line-height: 1.8;
+        margin: 0 5%; }
+      .blog .content article .content-button {
+        margin: 0 4%;
+        display: flex;
+        justify-content: space-between; }
+        .blog .content article .content-button .content-btn-heart {
+          color: #999999;
+          border: none;
+          background-color: #fff;
+          margin-top: 3%; }
+          .blog .content article .content-button .content-btn-heart:hover {
+            color: #f4c400; }
+          .blog .content article .content-button .content-btn-heart .like-counter {
+            display: inline-block; }
+        .blog .content article .content-button .content-button-more {
+          text-decoration: none;
+          color: black;
+          padding: 10px;
+          border: 2px solid #000;
+          font-weight: 900; }
+          .blog .content article .content-button .content-button-more:hover {
+            color: #fff;
+            border: 2px solid #f4c400;
+            background-color: #f4c400; }
+
 .content-about {
   top: -45px;
   background-color: #f7F7F7;
