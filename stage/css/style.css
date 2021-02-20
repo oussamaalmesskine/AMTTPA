@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&display=swap");
 body {
-  font-family: 'Raleway', sans-serif; }
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif; }
 
 header {
   top: 0;
@@ -73,9 +75,11 @@ header {
       @media (max-width: 600px) {
         .Our-slide .carousel-caption h1 {
           font-size: 1.5rem; } }
-    @media (max-width: 600px) {
-      .Our-slide .carousel-caption h2 {
-        font-size: 1rem; } }
+    .Our-slide .carousel-caption h2 {
+      color: #CE9B42; }
+      @media (max-width: 600px) {
+        .Our-slide .carousel-caption h2 {
+          font-size: 1rem; } }
 
 .overlay {
   position: absolute;
@@ -91,6 +95,51 @@ header {
   padding: 10px; }
   .footer a {
     color: #fff; }
+
+.contact {
+  margin-top: 70px;
+  margin-bottom: 70px; }
+  .contact .contact-description hr {
+    margin-top: 12px; }
+    .contact .contact-description hr::after {
+      left: 7%; }
+  .contact hr {
+    margin-bottom: 20px;
+    margin-top: 5px; }
+  .contact input,
+  .contact textarea {
+    margin-bottom: 10px;
+    border-color: #f4c400; }
+  .contact input[type=submit] {
+    width: 100%;
+    background: #f4c400a6;
+    color: #fff; }
+    .contact input[type=submit]:focus, .contact input[type=submit]:hover {
+      border-color: #fff;
+      box-shadow: none;
+      background: #f4c400; }
+  .contact input {
+    padding-left: 32px; }
+  .contact .form-control:focus {
+    border-color: #f4c400;
+    box-shadow: 0 0 0 1px #f4c400; }
+  .contact .asterisx {
+    top: 0;
+    color: #CE9B42;
+    font-size: 25px;
+    right: 3px;
+    z-index: 3; }
+  .contact .custom-alert {
+    padding: 5px 10px;
+    display: none; }
+  .contact .send-icon {
+    color: #fff; }
+  .contact i {
+    height: 0;
+    float: left;
+    top: 11px;
+    left: 10px;
+    color: #91979d; }
 
 .content-about {
   top: -45px;
@@ -113,10 +162,6 @@ header {
       flex-direction: column-reverse; } }
   .content-about img {
     margin-bottom: 15px; }
-
-hr {
-  position: relative;
-  text-align: center; }
 
 hr:after {
   content: "";
@@ -146,7 +191,7 @@ hr:after {
 .section-titel {
   margin-bottom: 60px; }
 
-.Objectife {
+.aticle-objective {
   background: #eee;
   padding: 15px;
   margin-bottom: 36px;
@@ -166,10 +211,8 @@ hr:after {
     margin-bottom: 20px; }
 
 .team {
-  position: relative;
   overflow: hidden;
   padding: 20px;
-  overflow: hidden;
   height: 300px;
   margin-bottom: 20px; }
   .team .overlay {
@@ -190,7 +233,6 @@ hr:after {
       color: #f4c400;
       cursor: pointer; }
   .team .team-next, .team .team-prev {
-    position: absolute;
     z-index: 3;
     width: 29px;
     height: 32px;

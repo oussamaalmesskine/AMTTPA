@@ -21,10 +21,7 @@
         margin-bottom: 15px;
     }
 }
-hr {
-    position: relative;
-    text-align: center;
-}
+//hR
 hr:after {
     content: "";
     position: absolute;
@@ -35,6 +32,7 @@ hr:after {
     border-radius: 5px;
     transform: translate(-24px, -3px);
 }
+//for our service
 .our-services{
     background-color: #f7F7F7;
     margin-top: 7%;
@@ -52,15 +50,18 @@ hr:after {
         line-height: 2em;
     }
 }
+//all titel
 .section-titel{
     margin-bottom: 60px;
 }
-.Objectife {
+//articles
+.aticle-objective {
     background: #eee;
     padding: 15px;
     margin-bottom: 36px;
     margin-top: 36px;
 }
+//section counter
 .counter{
     background-color: $maincolor;
     color: #fff;
@@ -75,14 +76,13 @@ hr:after {
         margin-bottom: 20px;
     }
 }
+//section team
 .team{
-    position: relative;
     overflow: hidden;
     .overlay {
         z-index: -1;
     }
     padding: 20px;
-    overflow:hidden;
     height: 300px;  
     margin-bottom: 20px;
     .taem-item{
@@ -104,7 +104,6 @@ hr:after {
         }
     }
     .team-next {
-        position: absolute;
         z-index: 3;
         width: 29px;
         height: 32px;
