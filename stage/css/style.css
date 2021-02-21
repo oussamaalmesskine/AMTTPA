@@ -281,6 +281,7 @@ hr:after {
     border-bottom-right-radius: 0; }
 
 .livinglab {
-  width: 80%; }
+  width: 80%;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
