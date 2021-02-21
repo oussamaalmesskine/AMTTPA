@@ -69,7 +69,7 @@ header {
       .Our-slide .content-slider {
         height: 275px; } }
   .Our-slide .carousel-caption {
-    top: 20%; }
+    top: 10%; }
     .Our-slide .carousel-caption h1 {
       color: #f4c400; }
       @media (max-width: 600px) {
@@ -95,6 +95,35 @@ header {
   padding: 10px; }
   .footer a {
     color: #fff; }
+
+.h-title {
+  color: #f4c400;
+  text-align: center;
+  font-weight: bold; }
+  .h-title .h-span {
+    color: black;
+    font-size: 3rem; }
+
+.h-paragraphe {
+  color: #F7F7F7;
+  width: 40%;
+  text-align: left;
+  font-weight: bold;
+  margin: 0px auto; }
+
+.h-button {
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  margin: 20px 90px;
+  border-radius: 10px;
+  border: 1px solid #f4c400;
+  background-color: #f4c400;
+  color: #F7F7F7; }
+  .h-button:hover {
+    background-color: #F7F7F7;
+    color: #f4c400;
+    font-weight: bold; }
 
 .contact {
   margin-top: 70px;
