@@ -8,7 +8,7 @@
     margin-bottom: 30px;
 }
 %sidebar {
-    border: 1px solid #eeeeee;
+    border: 1px solid $borderColor;
     background: #f1f1f12e;
     padding: 30px;
 }
@@ -34,9 +34,9 @@
                 .Categorie-child-list-link {
                     display: flex;
                     justify-content: space-between;
-                    color: black;
+                    color: $darkColor;
                     text-decoration: none;
-                    border-bottom: 2px dotted #eee;
+                    border-bottom: 2px dotted $borderColor;
                     &:hover{
                     color: $maincolor;
                     border-bottom: 1px dashed $maincolor;
@@ -60,12 +60,12 @@
                 font-size: 12px;
                 line-height: 35px;
                 color: #cccccc;
-                border: 1px solid #eeeeee;
+                border: 1px solid $borderColor;
                 min-width: 40%;
                 border-radius: 0px;
             }
             .newsletter-btn{
-                background: #000;
+                background: $darkColor;
                 color: #fff;
                 font-size: 12px;
                 line-height: 30px;
@@ -98,7 +98,7 @@
                 width: max-content;
                 padding: 10px 30px;
                 font-size: 20px;
-                background-color: #f4c400;
+                background-color: $maincolor;
                 color: #fff;
                 margin-left: 3%;
                 font-weight: 900;
@@ -121,23 +121,34 @@
                 margin: 0 4%;
                 display: flex;
                 justify-content: space-between;
-                .content-btn-heart {
-                    color: #999999;
-                    border: none;
-                    background-color: #fff;
+                .content-button-box {
                     margin-top: 3%;
-                    &:hover{
-                        color: $maincolor;
+                    .content-button-box-btn {
+                        border: none;
+                        background-color: #fff;
+                    .fa.fa-heart{
+                        color: $darkColor;
+                        &:hover{
+                            color: $maincolor;
+                        }
+
                     }
-                    .like-counter{
+                    .like-counter {
                         display: inline-block;
+                        cursor: text;
+                    }}
+                    .fa.fa-comments-o {
+                        color: black;
+                        margin-left: 5px;
+                        cursor: text;
+                        
                     }
                 }
                 .content-button-more{
                     text-decoration: none;
-                    color: black;
+                    color: $darkColor;
                     padding: 10px;
-                    border: 2px solid #000;
+                    border: 2px solid $darkColor;
                     font-weight: 900;
                     &:hover {
                         color: #fff;

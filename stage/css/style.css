@@ -121,9 +121,9 @@ header {
         .blog .aside .sidtop .Categorie-child .Categorie-child-list .Categorie-child-list-link {
           display: flex;
           justify-content: space-between;
-          color: black;
+          color: #000000;
           text-decoration: none;
-          border-bottom: 2px dotted #eee; }
+          border-bottom: 2px dotted #eeeeee; }
           .blog .aside .sidtop .Categorie-child .Categorie-child-list .Categorie-child-list-link:hover {
             color: #f4c400;
             border-bottom: 1px dashed #f4c400; }
@@ -141,7 +141,7 @@ header {
         min-width: 40%;
         border-radius: 0px; }
       .blog .aside .sidbutom .newsletter-btn {
-        background: #000;
+        background: #000000;
         color: #fff;
         font-size: 12px;
         line-height: 30px;
@@ -187,20 +187,27 @@ header {
         margin: 0 4%;
         display: flex;
         justify-content: space-between; }
-        .blog .content article .content-button .content-btn-heart {
-          color: #999999;
-          border: none;
-          background-color: #fff;
+        .blog .content article .content-button .content-button-box {
           margin-top: 3%; }
-          .blog .content article .content-button .content-btn-heart:hover {
-            color: #f4c400; }
-          .blog .content article .content-button .content-btn-heart .like-counter {
-            display: inline-block; }
+          .blog .content article .content-button .content-button-box .content-button-box-btn {
+            border: none;
+            background-color: #fff; }
+            .blog .content article .content-button .content-button-box .content-button-box-btn .fa.fa-heart {
+              color: #000000; }
+              .blog .content article .content-button .content-button-box .content-button-box-btn .fa.fa-heart:hover {
+                color: #f4c400; }
+            .blog .content article .content-button .content-button-box .content-button-box-btn .like-counter {
+              display: inline-block;
+              cursor: text; }
+          .blog .content article .content-button .content-button-box .fa.fa-comments-o {
+            color: black;
+            margin-left: 5px;
+            cursor: text; }
         .blog .content article .content-button .content-button-more {
           text-decoration: none;
-          color: black;
+          color: #000000;
           padding: 10px;
-          border: 2px solid #000;
+          border: 2px solid #000000;
           font-weight: 900; }
           .blog .content article .content-button .content-button-more:hover {
             color: #fff;
