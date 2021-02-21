@@ -294,5 +294,8 @@ hr:after {
   .livinglab .f-art {
     grid-column: 2/3;
     grid-row: 1/2; }
+  .livinglab .s-art {
+    grid-column: 3/4;
+    grid-row: 1/2; }
 
 /*# sourceMappingURL=style.css.map */
