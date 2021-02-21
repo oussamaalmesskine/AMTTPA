@@ -290,6 +290,9 @@ hr:after {
   display: grid;
   grid-template-columns: 100px 230px 230px 230px 100px;
   grid-template-rows: repeat(2, 1fr);
-  olumn-gap: 10px; }
+  column-gap: 10px; }
+  .livinglab .f-art {
+    grid-column: 2/3;
+    grid-row: 1/2; }
 
 /*# sourceMappingURL=style.css.map */
