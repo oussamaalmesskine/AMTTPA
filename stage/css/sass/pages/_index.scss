@@ -1,18 +1,20 @@
-.h-title{
-    color: $maincolor;
-    text-align: center;
-    font-weight: bold;
-    .h-span{
-        color: black;
-        font-size: 3rem;
-    }
+.h-title {
+  color: $maincolor;
+  text-align: center;
+  font-weight: bold;
+  .h-span {
+    color: black;
+    font-size: 3rem;
+  }
 }
-.h-paragraphe{
-    color: $thirdColor;
-    width: 40%;
-text-align: left;
-font-weight: bold;
-margin: 0px auto;
-
-
+.h-paragraphe {
+  color: $thirdColor;
+  width: 40%;
+  text-align: left;
+  font-weight: bold;
+  margin: 0px auto;
+}
+.h-button {
+  width: 150px;
+  height: 50px;
 }
