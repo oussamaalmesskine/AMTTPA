@@ -7,7 +7,7 @@ padding: 20px 0px;
 background-color: $l-lab;
 display: grid;
 grid-template-columns: (100px 230px 230px 230px 100px);
-
+grid-template-rows: repeat(2, 1fr);
 
 
 
