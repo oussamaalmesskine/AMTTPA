@@ -92,24 +92,64 @@ header {
   .footer a {
     color: #fff; }
 
+.blog .aside .sidtop .Categorie, .blog .aside .sidbutom .newsletter {
+  font-size: 18px;
+  line-height: 25px;
+  background: #f4c400;
+  text-align: center;
+  color: #fff;
+  padding: 8px 0px;
+  margin-bottom: 30px; }
+
+.blog .aside .sidtop, .blog .aside .sidbutom {
+  border: 1px solid #eeeeee;
+  background: #f1f1f12e;
+  padding: 30px; }
+
 .blog {
   display: flex;
   justify-content: space-between; }
-  .blog aside {
+  .blog .aside {
     height: max-content;
     width: 25%;
-    border: 1px solid #eeeeee;
-    background: #fafaff;
-    padding: 30px;
     margin: 1% auto; }
-    .blog aside .Categorie {
-      font-size: 18px;
-      line-height: 25px;
-      background: #f4c400;
-      text-align: center;
-      color: #fff;
-      padding: 8px 0px;
-      margin-bottom: 30px; }
+    .blog .aside .sidtop .Categorie-child {
+      padding: 0;
+      list-style: none; }
+      .blog .aside .sidtop .Categorie-child .Categorie-child-list {
+        margin-bottom: 3%; }
+        .blog .aside .sidtop .Categorie-child .Categorie-child-list .Categorie-child-list-link {
+          display: flex;
+          justify-content: space-between;
+          color: black;
+          text-decoration: none;
+          border-bottom: 2px dotted #eee; }
+          .blog .aside .sidtop .Categorie-child .Categorie-child-list .Categorie-child-list-link:hover {
+            color: #f4c400;
+            border-bottom: 1px dashed #f4c400; }
+    .blog .aside .sidbutom {
+      margin-top: 5%; }
+      .blog .aside .sidbutom p {
+        text-align: center;
+        font-size: 11px;
+        font-weight: 500; }
+      .blog .aside .sidbutom .newsletter-form {
+        font-size: 12px;
+        line-height: 35px;
+        color: #cccccc;
+        border: 1px solid #eeeeee;
+        min-width: 40%;
+        border-radius: 0px; }
+      .blog .aside .sidbutom .newsletter-btn {
+        background: #000;
+        color: #fff;
+        font-size: 12px;
+        line-height: 30px;
+        font-weight: 500;
+        padding: 0px 24px; }
+        .blog .aside .sidbutom .newsletter-btn:hover {
+          text-decoration: none;
+          background: #f4c400; }
   .blog .content {
     width: 65%;
     margin-top: 1%;
@@ -166,7 +206,17 @@ header {
             color: #fff;
             border: 2px solid #f4c400;
             background-color: #f4c400; }
+    .blog .content .page-link {
+      color: #f4c400; }
 
+@media screen and (max-width: 990px) {
+  .blog {
+    display: block; }
+    .blog .content {
+      width: 90%;
+      margin-left: 5%; }
+    .blog .aside {
+      width: 90%; } }
 .content-about {
   top: -45px;
   background-color: #f7F7F7;

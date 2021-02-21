@@ -1,24 +1,84 @@
+%side {
+    font-size: 18px;
+    line-height: 25px;
+    background: $maincolor;
+    text-align: center;
+    color: #fff;
+    padding: 8px 0px;
+    margin-bottom: 30px;
+}
+%sidebar {
+    border: 1px solid #eeeeee;
+    background: #f1f1f12e;
+    padding: 30px;
+}
+
 .blog {
     display: flex;
     justify-content: space-between;
-    aside {
+    .aside {
         height: max-content;
         width: 25%;
-        border: 1px solid #eeeeee;
-    background: #fafaff;
-    padding: 30px;
         margin: 1% auto;
+        .sidtop{
+            @extend %sidebar;
         
         .Categorie {
-            font-size: 18px;
-            line-height: 25px;
-            background: $maincolor;
-            text-align: center;
-            color: #fff;
-            padding: 8px 0px;
-            margin-bottom: 30px;
+           @extend %side; 
+        }
+        .Categorie-child {
+            padding: 0;
+            list-style: none;
+            .Categorie-child-list {
+                margin-bottom: 3%;
+                .Categorie-child-list-link {
+                    display: flex;
+                    justify-content: space-between;
+                    color: black;
+                    text-decoration: none;
+                    border-bottom: 2px dotted #eee;
+                    &:hover{
+                    color: $maincolor;
+                    border-bottom: 1px dashed $maincolor;
+                    }
+                }
+            }
         }
     }
+        .sidbutom{
+            @extend %sidebar;
+            margin-top: 5%;
+            .newsletter {
+                @extend %side; 
+             }
+             p {
+                text-align: center;
+                font-size: 11px;
+                font-weight: 500;
+            }
+            .newsletter-form {
+                font-size: 12px;
+                line-height: 35px;
+                color: #cccccc;
+                border: 1px solid #eeeeee;
+                min-width: 40%;
+                border-radius: 0px;
+            }
+            .newsletter-btn{
+                background: #000;
+                color: #fff;
+                font-size: 12px;
+                line-height: 30px;
+                font-weight: 500;
+                padding: 0px 24px;
+                &:hover{
+                    text-decoration: none;
+                    background: $maincolor;
+                }
+            }
+        }
+
+}
     .content {
         width: 65%;
     margin-top: 1%;
@@ -87,5 +147,22 @@
                 }
             }
         }
+        .page-link {
+            color: $maincolor;
+        }
+    }
+
+}
+@media screen and (max-width:990px){
+    .blog {
+        display: block;
+        .content {
+            width: 90%;
+            margin-left: 5%;
+        }
+        .aside {
+            width: 90%;
+        }
+    
     }
 }
