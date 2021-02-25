@@ -1,5 +1,6 @@
 //CONTACT FORM
-var user = document.getElementById('user'),
+var user = document.getElementById('name'),
+    Prenom = document.getElementById('Prénom'),
     mail = document.getElementById('mail'),
     form = document.querySelector('.form-contact'),
     userEror = true,

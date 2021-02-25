@@ -1,4 +1,13 @@
 .contact{
+    margin: 70px auto;
+    .contacthR{
+            &::after{
+                left: auto;
+            }
+    }
+    legend{
+        max-width: 100%;
+    }
     .contact-description{
         hr{
             margin-top: 12px;
@@ -7,14 +16,13 @@
             }
         }
     }
-    margin-top: 70px;
-    margin-bottom: 70px;
     hr{
         margin-bottom: 20px;
         margin-top: 5px;
     }
     input,
-    textarea{
+    textarea,
+    select{
         margin-bottom: 10px;
         border-color:  $maincolor;
     }

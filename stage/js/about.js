@@ -1,7 +1,7 @@
-/*start setction Counter*/
+window.addEventListener('scroll',function() {scroolCunter()});
 let ourSkills = document.querySelector('.counter');
 var speed = 0;
-setInterval(window.onscroll = function () {
+function scroolCunter() {
     let skikillsOffsetTop = ourSkills.offsetTop;
     let skikillsOuterHeight = ourSkills.offsetHeight;
     let windowHeight = this.innerHeight;
@@ -17,5 +17,4 @@ setInterval(window.onscroll = function () {
     }
     else {
     }
-}, 10000);
-// /*end setction Counter*/
+};

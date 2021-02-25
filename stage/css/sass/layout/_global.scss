@@ -6,12 +6,28 @@ body{
 header{
     top: 0;
     img{
-        height: 44px;
+        height: 61px;
+    }
+    .navbar{
+        height: 126px;
+        @include Mobile{
+            height: auto;
+            background-color: #F7F7F7;
+        }
+        @include tablet{
+            height: auto;
+            background-color: #F7F7F7;
+        }
     }
     z-index: 9999;
-    background-color:$thirdColor;
+    background-color:rgba(51, 51, 51, 0);
+    @include Mobile{
+        background-color:#F7F7F7;
+    }
+
     .header-top{
         background-color: $maincolor;
+        padding: 9px;
         a{
             color: #fff;
             margin-left: $padmarg;
@@ -22,17 +38,31 @@ header{
         box-shadow: 0 0 0 -0.8rem $maincolor;
     }
     .navbar-light .navbar-nav .nav-link {
-        color: rgb(0, 0 ,0);
+        color: #fff;
         margin-left: 10px;
         font-size: 1.3em;
+        span{
+            margin-left: 6px;
+            @include Mobile{
+                display: none;
+            }
+            @include tablet{
+                display: none;
+            }
+            @include large-devices{
+                display: none;
+            }
+        }
         @include large-devices {
-            width: 12%;
+            width: 80%;
         }
         @include tablet{
             width: 12%;
+            color: #000 !important;
         }
         @include Mobile{
             width: 18%;
+            color: #000 !important;
         }
         &::after{
             content: "";
@@ -51,7 +81,7 @@ header{
             width: $widthei;
         }
         &.active{
-            color: $maincolor;
+            color: $maincolor !important;
             &::after{
                 width: $widthei;
             }
@@ -63,14 +93,19 @@ header{
     }
 }
 .Our-slide{
-    margin-top: 90px;
     p {
-        font-size: 16px;
+        font-size: 2rem;
+        text-align: center;
+        color: #dadada;
+        width:  100%;
+        overflow: hidden;
+        animation: tapper 1.5s steps(32), blink 0.5s infinite;
+        font-style: italic;
         @include tablet{
             font-size: 11px;
         }
         @include Mobile{
-            font-size: 9px;
+            font-size: 19px;
         }
     }
     .carousel-indicators{
@@ -86,14 +121,20 @@ header{
         z-index: 3;
     }
     .content-slider {
-        height: 500px;
+        height: 100vh;
         overflow: hidden;
+        .carousel-item{
+            height: 100%;
+            img{
+                height: 100%;
+            }
+        }
         @include Mobile{
-            height: 275px;
+            height: 70vh;
         }
     }
     .carousel-caption{
-        top: 20%;
+        top: 40%;
         h1{
             color: $maincolor;
             @include Mobile{
@@ -124,4 +165,16 @@ hr:after {
     left: 50%;
     border-radius: 5px;
     transform: translate(-24px, -3px);
+}
+
+@keyframes tapper {
+    from {
+        width: 0ch;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
 }
