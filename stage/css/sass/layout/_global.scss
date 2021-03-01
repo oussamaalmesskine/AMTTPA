@@ -78,12 +78,12 @@ header{
             color: $maincolor;
         }
         &:hover::after{
-            width: $widthei;
+            width: $widthei - 10;
         }
         &.active{
             color: $maincolor !important;
             &::after{
-                width: $widthei;
+                width: $widthei - 10;
             }
         }
     }

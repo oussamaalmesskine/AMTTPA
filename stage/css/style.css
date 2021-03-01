@@ -69,11 +69,11 @@ header {
     header .navbar-light .navbar-nav .nav-link:hover {
       color: #f4c400; }
     header .navbar-light .navbar-nav .nav-link:hover::after {
-      width: 100%; }
+      width: 90%; }
     header .navbar-light .navbar-nav .nav-link.active {
       color: #f4c400 !important; }
       header .navbar-light .navbar-nav .nav-link.active::after {
-        width: 100%; }
+        width: 90%; }
   header i.fa.fa-search {
     right: 3%;
     color: #c7c7c7; }
@@ -151,12 +151,43 @@ hr:after {
   width: 100%;
   background: #0f0f0fc7; }
 
-.footer {
-  background-color: #f4c400;
-  color: #fff;
-  padding: 10px; }
-  .footer a {
-    color: #fff; }
+footer {
+  background-color: #f7f7f7;
+  padding: 20px 0px;
+  border-top: 2px solid #f4c400; }
+  footer hr:after {
+    left: 48%; }
+  footer .footer-left {
+    padding: 30px; }
+    footer .footer-left img {
+      width: 200px;
+      margin-bottom: 20px; }
+  footer .footer-center {
+    padding: 30px; }
+    footer .footer-center a {
+      color: #050303; }
+      footer .footer-center a:hover {
+        color: #CE9B42; }
+  footer .footer-right {
+    padding: 30px; }
+    footer .footer-right a {
+      margin-top: 40px;
+      position: relative; }
+      footer .footer-right a i {
+        position: relative; }
+        footer .footer-right a i::after {
+          content: "";
+          width: 260px;
+          height: 3px;
+          border-radius: 5px;
+          background-color: #f4c400;
+          bottom: -19px;
+          left: 0;
+          position: absolute; }
+  footer .copyright {
+    background-color: #f4c400;
+    color: #fff;
+    padding: 10px; }
 
 .contact {
   margin: 70px auto; }
@@ -207,32 +238,22 @@ hr:after {
     left: 10px;
     color: #91979d; }
 
-.all-items-about .content-about {
-  top: -45px;
-  background-color: #f7f7f7;
-  border-radius: 5px; }
-  @media (max-width: 900px) {
-    .all-items-about .content-about {
-      top: -130px; } }
-  @media (max-width: 600px) {
-    .all-items-about .content-about {
-      top: -60px; } }
-  @media (max-width: 600px) {
-    .all-items-about .content-about {
-      flex-direction: column-reverse; } }
-  @media (max-width: 900px) {
-    .all-items-about .content-about {
-      flex-direction: column-reverse; } }
-  @media (max-width: 1040px) {
-    .all-items-about .content-about {
-      flex-direction: column-reverse; } }
-  .all-items-about .content-about img {
-    margin-bottom: 15px; }
 .all-items-about .our-services, .all-items-about .valeur {
   background-color: #f7f7f7;
-  margin-top: 7%;
-  margin-bottom: 7%;
-  padding: 5px 20px; }
+  margin-top: -6%;
+  margin-bottom: 14%;
+  padding: 30px 20px;
+  position: relative;
+  border-radius: 9px; }
+  .all-items-about .our-services .Myaccordin .btn-link, .all-items-about .valeur .Myaccordin .btn-link {
+    color: #f4c400; }
+    .all-items-about .our-services .Myaccordin .btn-link:hover, .all-items-about .valeur .Myaccordin .btn-link:hover {
+      color: #f4c400;
+      text-decoration: underline; }
+    .all-items-about .our-services .Myaccordin .btn-link:focus, .all-items-about .valeur .Myaccordin .btn-link:focus {
+      box-shadow: 0 0 0 0rem #f4c400; }
+  .all-items-about .our-services .Myaccordin li, .all-items-about .valeur .Myaccordin li {
+    line-height: 3em; }
   .all-items-about .our-services .images, .all-items-about .valeur .images {
     overflow: hidden;
     margin-bottom: 51px; }
@@ -270,43 +291,79 @@ hr:after {
     margin-bottom: 20px; }
 .all-items-about .team {
   overflow: hidden;
-  padding: 20px;
-  height: 300px;
-  margin-bottom: 20px; }
-  .all-items-about .team .overlay {
-    z-index: -1; }
+  margin-top: 14%;
+  margin-bottom: 14%; }
+  .all-items-about .team span {
+    top: 35%;
+    font-size: 60px;
+    font-weight: bold;
+    color: #f4c400;
+    cursor: pointer;
+    user-select: none;
+    left: .5%;
+    z-index: 1; }
+    .all-items-about .team span:hover {
+      color: #CE9B42; }
+  .all-items-about .team span:nth-of-type(2) {
+    left: 98%; }
+    @media (max-width: 900px) {
+      .all-items-about .team span:nth-of-type(2) {
+        left: 96%; } }
+    @media (max-width: 600px) {
+      .all-items-about .team span:nth-of-type(2) {
+        left: 95%; } }
   .all-items-about .team .taem-item {
-    padding: 20px 0px; }
+    padding: 20px 0px;
+    background-color: #F7F7F7;
+    left: 0;
+    transition: .5s;
+    margin-right: 15px;
+    border-radius: 15px;
+    cursor: pointer; }
+    .all-items-about .team .taem-item .POPUP {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(51, 51, 51, 0.829);
+      z-index: 9999;
+      color: #fff; }
+      .all-items-about .team .taem-item .POPUP .biography {
+        background-color: #f7f7f7;
+        padding: 30px;
+        width: 73%;
+        margin: 100px auto 32px;
+        color: #333;
+        height: 79%; }
+        .all-items-about .team .taem-item .POPUP .biography b {
+          color: #f4c400; }
+      .all-items-about .team .taem-item .POPUP .closePopUP {
+        position: absolute;
+        right: -2%;
+        top: -6%;
+        background: #CE9B42;
+        padding: 1px 12px;
+        font-weight: bold;
+        font-size: 2em;
+        border-radius: 27%;
+        float: right;
+        color: #fff; }
     .all-items-about .team .taem-item img {
       width: 120px;
       height: 120px;
       border: 4px solid;
       border-radius: 50%; }
-    .all-items-about .team .taem-item a {
-      background-color: #fff;
-      border-radius: 25px;
-      width: 70px;
-      height: 70px;
-      padding: 10px;
-      color: #f4c400;
-      cursor: pointer; }
-  .all-items-about .team .team-next, .all-items-about .team .team-prev {
-    z-index: 3;
-    width: 29px;
-    height: 32px;
-    top: 50%;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background: #f4c400; }
-    .all-items-about .team .team-next i, .all-items-about .team .team-prev i {
-      padding-top: 7px;
-      cursor: pointer;
-      color: #fff; }
-  .all-items-about .team .team-prev {
-    right: 20px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0; }
+
+footer .link-social-media, .all-items-about .team .taem-item a {
+  background-color: #fff;
+  border-radius: 25px;
+  width: 37px;
+  height: 37px;
+  padding: 10px;
+  color: #f4c400;
+  transition: .5s;
+  cursor: pointer; }
+  footer .link-social-media:hover, .all-items-about .team .taem-item a:hover {
+    opacity: .7; }
 
 /*# sourceMappingURL=style.css.map */
