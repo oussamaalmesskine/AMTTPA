@@ -1,15 +1,20 @@
 window.addEventListener('scroll',function()  {myFunction()});
 let header = document.querySelector('header');
 let links = document.querySelectorAll('.nav-link');
-
+let whitebrand =document.querySelector('.white-brand');
+let blackbrand =document.querySelector('.black-brand');
 function myFunction() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         header.style.backgroundColor="#F7F7F7";
+        whitebrand.style.display="none";
+        blackbrand.classList.add('d-block');
         links.forEach(link => {
             link.style.color="#333";
         });
     } else {
         header.style.backgroundColor="rgba(51, 51, 51, 0)";
+        whitebrand.style.display="block";
+        blackbrand.classList.remove('d-block');
         links.forEach(link => {
             link.style.color="#fff";
         });

@@ -1,3 +1,4 @@
+//scrool counter
 window.addEventListener('scroll',function() {scroolCunter()});
 let ourSkills = document.querySelector('.counter');
 var speed = 0;

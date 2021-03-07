@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
 body{
     overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
+}
+*{
+    font-family: 'Hind Madurai', sans-serif;
 }
 header{
     top: 0;
@@ -15,6 +18,10 @@ header{
             background-color: #F7F7F7;
         }
         @include tablet{
+            height: auto;
+            background-color: #F7F7F7;
+        }
+        @include large-devices{
             height: auto;
             background-color: #F7F7F7;
         }
@@ -37,22 +44,21 @@ header{
         border-color: $maincolor;
         box-shadow: 0 0 0 -0.8rem $maincolor;
     }
+    .dropdown-item.active, .dropdown-item:active {
+        color: #fff;
+        text-decoration: none;
+        background-color: $maincolor;
+    }
+    .dropdown-item:focus, .dropdown-item:hover {
+        color: #fff;
+        text-decoration: none;
+        background-color:$maincolor;
+    }
     .navbar-light .navbar-nav .nav-link {
         color: #fff;
         margin-left: 10px;
-        font-size: 1.3em;
-        span{
-            margin-left: 6px;
-            @include Mobile{
-                display: none;
-            }
-            @include tablet{
-                display: none;
-            }
-            @include large-devices{
-                display: none;
-            }
-        }
+        font-size: 1.4em;
+ 
         @include large-devices {
             width: 80%;
         }
@@ -64,7 +70,12 @@ header{
             width: 18%;
             color: #000 !important;
         }
-        &::after{
+        @include  large-devices{
+            // width: 18%;
+            color: #000 !important;
+        }
+
+        &::before{
             content: "";
             background-color: $maincolor;
             width: 0%;
@@ -77,12 +88,12 @@ header{
         &:hover{
             color: $maincolor;
         }
-        &:hover::after{
+        &:hover::before{
             width: $widthei - 10;
         }
         &.active{
             color: $maincolor !important;
-            &::after{
+            &::before{
                 width: $widthei - 10;
             }
         }
@@ -102,7 +113,7 @@ header{
         animation: tapper 1.5s steps(32), blink 0.5s infinite;
         font-style: italic;
         @include tablet{
-            font-size: 11px;
+            font-size: 19px;
         }
         @include Mobile{
             font-size: 19px;

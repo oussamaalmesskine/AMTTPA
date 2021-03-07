@@ -1,0 +1,602 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="853.4" height="1018" viewBox="0 0 853.4 1018">
+  <defs>
+    <filter id="Angola" x="353.8" y="578.7" width="170.9" height="205.7" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Burundi" x="567.9" y="549.8" width="40" height="48.3" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Benin" x="222.7" y="348" width="55.8" height="103.3" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Burkina_Faso" x="146.8" y="308.2" width="112" height="95.1" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Botswana" x="450" y="761.7" width="134.3" height="145.8" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Central_African_Rep." x="389.8" y="363.2" width="176.6" height="141.7" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Côte_d_Ivoire" x="108.4" y="371.7" width="92.7" height="104.6" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Cameroon" x="317" y="339.4" width="111" height="173" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Dem._Rep._Congo" x="362" y="444.6" width="251.2" height="275.1" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Congo" x="348.8" y="465.7" width="108.9" height="140.3" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Djibouti" x="719.4" y="341.6" width="38.7" height="43.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-11"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Algeria" x="110.7" y="3.3" width="264.8" height="269.3" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-12"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Egypt" x="503.1" y="80.4" width="170.2" height="151.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-13"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Eritrea" x="652.9" y="268.3" width="102.2" height="95.7" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-14"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ethiopia" x="614.9" y="310.3" width="199.7" height="178.7" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-15"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Gabon" x="320.9" y="485.1" width="87.7" height="106.3" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-16"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-16"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ghana" x="173.8" y="363.8" width="71.5" height="107.3" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-17"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-17"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Guinea" x="29.4" y="343.2" width="107.6" height="92" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-18"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-18"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Gambia" x="9.1" y="325.3" width="55.4" height="29.3" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-19"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-19"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Guinea-Bissau" x="10.9" y="342.6" width="55.2" height="41" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-20"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-20"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Eq._Guinea" x="327.1" y="485.7" width="43.1" height="36.6" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-21"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-21"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Kenya" x="627.6" y="441.1" width="115.8" height="159.9" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-22"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-22"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Liberia" x="73.9" y="399.1" width="66.4" height="76.9" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-23"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-23"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Libya" x="323.9" y="59" width="208.5" height="206.4" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-24"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-24"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Lesotho" x="530.2" y="913.7" width="47" height="46.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-25"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-25"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Morocco" x="9.5" y="22.4" width="209.8" height="217.6" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-26"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-26"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Madagascar" x="730.7" y="683.9" width="112.2" height="206.6" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-27"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-27"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Mali" x="66" y="171.8" width="217.9" height="224.8" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-28"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-28"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Mozambique" x="578.6" y="660" width="147.3" height="246.3" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-29"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-29"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Mauritania" x="8.9" y="138.3" width="164.9" height="195.8" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-30"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-30"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Malawi" x="609.5" y="645" width="55.1" height="123.8" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-31"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-31"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Namibia" x="354.8" y="751.7" width="179.8" height="186.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-32"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-32"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Niger" x="216.9" y="192.6" width="206.2" height="182.4" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-33"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-33"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Nigeria" x="246.2" y="325.5" width="163.1" height="152.1" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-34"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-34"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rwanda" x="567.9" y="533" width="41" height="43.7" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-35"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-35"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="W._Sahara" x="8.9" y="134.6" width="121.1" height="111.2" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-36"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-36"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Sudan" x="479.5" y="212.9" width="215.5" height="204.2" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-37"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-37"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="S._Sudan" x="504.2" y="347.9" width="158.8" height="139.9" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-38"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-38"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Senegal" x="0" y="287.7" width="93.2" height="78" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-39"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-39"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Sierra_Leone" x="52.1" y="378.3" width="55.6" height="64.1" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-40"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-40"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Swaziland" x="576.7" y="872.3" width="35.4" height="41.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-41"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-41"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Chad" x="377.3" y="193.4" width="143.8" height="240.2" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-42"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-42"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Togo" x="212.7" y="364.9" width="42.4" height="89.4" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-43"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-43"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tunisia" x="300.3" y="0" width="65.4" height="117" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-44"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-44"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tanzania" x="574.6" y="531.3" width="148.1" height="167.2" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-45"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-45"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Uganda" x="574.8" y="458.5" width="85.6" height="97.8" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-46"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-46"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="South_Africa" x="405.9" y="822.9" width="215.2" height="195.1" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-47"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-47"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Zambia" x="477.8" y="631.3" width="161.7" height="153.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-48"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-48"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Zimbabwe" x="517.8" y="731.9" width="111" height="112.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-49"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-49"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Somalia" x="713.9" y="350.9" width="139.5" height="208.7" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-50"/>
+      <feFlood flood-color="#fff2f2" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-50"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_1" data-name="Groupe 1" transform="translate(-533.3 -34)">
+    <g id="Angola-2" data-name="Angola" transform="translate(896.6 619.2)">
+      <g transform="matrix(1, 0, 0, 1, -363.3, -585.2)" filter="url(#Angola)">
+        <path id="Angola-3" data-name="Angola" d="M495.3,598.6l-36-.2-4.3,1.7-3.5-.3-5.1,1.9-1.1,2.7,6,8.7,2.4,9.3,3.6,13.4-3.8,5.5-.6,2.8,2.9,8.3,3.1,8.4,3.6,5,.6,7.8-1.4,10.3-4,6.1-7.1,9.1-2.9,5.6-4.1,12.5-.8,5.9-4.3,12.7L436.6,748l1,8.7,5.9-2.7,7.2-2.3,7.8.4,7.1,6.3,1.9-1,48.8-.6,8.2,6.6,29.1,2,22.4-5.7-7.6-8.6-7.8-11.3,1.6-44,25.3.1-1-4.7,2-5.2-2-6.5,1.5-6.7-1.2-4.3-5.5-.8-7.6,2-5.3-.3-3,1.3.9-16.5-3.9-5.1-.8-8.5,1.9-8.4-2.4-5.3-.1-8.7-14.8.1,1.1-5-6.2.1-.7,2.4-7.6.5-3.1,8.1-1.9,3.4-6.7-1.9-4,1.9-8.1,1.1-4.6-7.2-2.7-4.5-3.5-8.3-2.9-10.3Zm-47.4-2.7.4-6,2-3.5,4.5-2.9-4.6-4.8-3.7,2.3-5,6,3.3,10.4,3.1-1.5Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Burundi-2" data-name="Burundi" transform="translate(1110.7 590.3)">
+      <g transform="matrix(1, 0, 0, 1, -577.4, -556.3)" filter="url(#Burundi)">
+        <path id="Burundi-3" data-name="Burundi" d="M669,556.1l-.6-5.4h0l-6.5-.9-3.8,7.9-7.4-1.1,3,6.3.1,2.4,4.3,13.2v.6l1.2-.2,4.5-5,4.9-7.2,3-2.9-.1-4.5-2.6-3.2Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Benin-2" data-name="Benin" transform="translate(765.5 388.5)">
+      <g transform="matrix(1, 0, 0, 1, -232.2, -354.5)" filter="url(#Benin)">
+        <path id="Benin-3" data-name="Benin" d="M340,356l-9.3-8-4.3.1-4.1,4-2.6,4.2-6,1.2-2.5,6.1-4.1,1.6-1.6,7.2,3.7,4.1,4.3,4.9.4,6.8,2.5,2.8-.5,31.8,3,9.5,10.1-1.6.6-22.3-.3-8.8,2.3-8.7,3.7-4.3,5.9-8.5-1.3-3.7,2.4-5.6-2.8-8.2.5-4.6Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Burkina_Faso-2" data-name="Burkina Faso" transform="translate(689.6 348.7)">
+      <g transform="matrix(1, 0, 0, 1, -156.3, -314.7)" filter="url(#Burkina_Faso)">
+        <path id="Burkina_Faso-3" data-name="Burkina Faso" d="M300.7,310.8h-7.8l-3-2.6-6.7,1.9-11.3,5.8-2.3,4.3-9.4,6.2-1.7,3.6-5.1,2.8-5.8-1.9-3.4,3.4-1.8,9.5-9.7,11.4.3,4.7-3.4,5.9.8,8,5.5,3,2.1,4.6,5.4,2.9,4.3-3.4,5.7-.6,8.3,3.6-1.6-10.4.3-7.9,21.1-.6,5.4,1,3.9-2.2,5.6,1.1,10.7.3,4.1-1.6,2.5-6.1,6-1.2,2.6-4.2.3-9.5-14-3.1-.4-6.7-6.9-9-1.6-6.3,1-6.7Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Botswana-2" data-name="Botswana" transform="translate(992.8 802.2)">
+      <g transform="matrix(1, 0, 0, 1, -459.5, -768.2)" filter="url(#Botswana)">
+        <path id="Botswana-3" data-name="Botswana" d="M600.6,762.7l-2.2-1-6.9,3.1h-3.6l-7.9,5.4-4.4-5.7-18.7,4.9-9,.4L546,819.1l-11.8.5L532.8,860l3.2,2,6.5,13.2-1.5,8.4,2.5,4.9,8.5-1.4,6.2-6.2,5.8-4.2,3.2-6.6,6-3.2,4.9,1.7,5.5,3.9,9.6.6,7.8-3.2,1.4-4.3,2.4-6.6,6.5-1.1,3.9-5.2,4.4-9.3,11.2-10.3,17.3-10.2-7.3-6.2-9.2-2.1-3.1-8.8.2-4.9-5.1-1.5-13-15.2-3.5-8-2.3-2.4-4.2-11.1Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Central_African_Rep.-2" data-name="Central African Rep." transform="translate(932.6 403.7)">
+      <g transform="matrix(1, 0, 0, 1, -399.3, -369.7)" filter="url(#Central_African_Rep.)">
+        <path id="Central_African_Rep.-3" data-name="Central African Rep." d="M587,398.1l-1-.7-4.2-4-.9-4.3,1.9-5.7-.1-5.7-7.2-8.6-1.5-5.9-7.7,2.3-6,5.6-8.6,15.1-11.3,6.4-11.8-.8-3.4,1.2,1.2,4.9-6.3,4.8-5.1,5.4-15.3,5.3-3-3.1-2.1-.3-2.2,3.6-10,1-6.1,14-2.9,2.6-.8,10.7,1.2,5.8-.9,4.1,5.8,7.3,1,4.9,4.6,7.2,5.6,4.4.6,6.3,1.3,4,6.3-12.8,7.3-7.4,8.2,2.4,7.9.7,1-9.6,4.7-7.1,6.5-4.4,10.1,4.7,7.8,5.1,9,1.4,9.1,2.7,3.6-8.4,1.6-1.1,5.6,1.4,13.5-6.9,4.9,3,3.9-.5,1.8-3.3,4.5-1.2,9.2,1.4,7.9.4,4-1.5-2-4.4L619,435l-3.2-8.3-5.2-6-8.3-7.2-.1-4.5-6.8-5.5Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Côte_d_Ivoire-2" data-name="Côte d&apos;Ivoire" transform="translate(651.2 412.2)">
+      <g transform="matrix(1, 0, 0, 1, -117.9, -378.2)" filter="url(#Côte_d_Ivoire)">
+        <path id="Côte_d_Ivoire-3" data-name="Côte d&apos;Ivoire" d="M230.4,373.8l-5,2.1-2.9,1.7-1.8-5.9-3.5,1.6-2.1-.3-2.3,4-9.4-.1-3.3-2.1-1.6,1.3-2.5,1.1-1,4.7,2.8,5.7,3,11.1-4.6,1.6-1.1,1.9.9,2.7-.8,6.1h-1.9l-.6,4,1.2,6.7-2.7,6.1,3.6,3.8,3.8.9,5.2,5.8.3,5.5-1.1,1.7-1,11.4,2.3.4,12.1-5.1,8.5-4,14.5-2.4,7.8-.2,8.5,2.7,5.6-.1.5-5.5-5.2-11.9,3.2-15.6,5.1-11.6-3.2-19.7-8.3-3.6-5.7.6-4.3,3.4-5.4-2.9-2.1-4.6-5.5-3Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Cameroon-2" data-name="Cameroon" transform="translate(859.8 379.9)">
+      <g transform="matrix(1, 0, 0, 1, -326.5, -345.9)" filter="url(#Cameroon)">
+        <path id="Cameroon-3" data-name="Cameroon" d="M477.5,366.6l.4-9.2-1-9.1-4.9-8.9-3.4.8-.4,4.4,4.9,5.5-1.3,2.5-.5,4.6-10.2,10.7-3.1,8.8-1.6,7.2-2.6,3.1-2.4,9.7-6.4,5.7-1.9,7-2.7,5.6-1.1,5.7-8.3,4.7-6.9-5.7-4.6.2-7.2,8.1-3.6.1L403,441.5l-3.1,9.8-.1,3.8,3.1,2,2.5,6.2,5.6,2.3,4.8,9.2L414,485.7l19.9.3,5.8-.9,7.4,1.9,7.3-1.8,1.5.7,15.4.6,9.9,3.6,9.7,3.3.9-7.5-1.3-4-.6-6.3-5.6-4.4-4.6-7.2-1-4.9-5.8-7.3.9-4.1-1.2-5.8.8-10.7,2.9-2.6,6.1-14,1.8-3.7-3.9-9.6-1.8-5.7-5.3-2.3-7.2-8.1,2.5-6.5,5.6,1.3,3.4-.9,6.8.1-6.8-12.6Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Dem._Rep._Congo-2" data-name="Dem. Rep. Congo" transform="translate(904.8 485.1)">
+      <g transform="matrix(1, 0, 0, 1, -371.5, -451.1)" filter="url(#Dem._Rep._Congo)">
+        <path id="Dem._Rep._Congo-3" data-name="Dem. Rep. Congo" d="M618.3,446l-9.2-1.4-4.5,1.2-1.8,3.3-3.9.5-4.9-3-13.5,6.9-5.6-1.4-1.6,1.1-3.6,8.4-9.1-2.7-9-1.4-7.8-5.1-10.1-4.7-6.5,4.4-4.7,7.1-1,9.6-.7,8.4-3.6,7.4-2.4,8.6-1.5,12.3.7,7.8-2,4.8-.3,5.1-1.4,4.4-8.1,6.7-5.6,7.1-5.3,13.4.3,11.4-3.1,4.4-7.2,6.8-7.2,8.7-4.5-2.5-.8-3.9-6.6-.1-4.2,5.3-3.2-1.4-4.5,2.9-2,3.5-.4,6-3.1,1.5,1.6,4.3,5.1-1.9,3.5.3,4.3-1.7,36,.2,2.9,10.3,3.5,8.3,2.7,4.5,4.6,7.2,8.1-1.1,4-1.9,6.7,1.9,1.9-3.4,3.1-8.1,7.6-.5.7-2.4,6.2-.1-1.1,5,14.8-.1.1,8.7,2.4,5.3-1.9,8.4.8,8.5,3.9,5.1-.9,16.5,3-1.3,5.3.3,7.6-2,5.5.8,4.2.3.6,4.3,5.7-.3,7.7,1.3,3.9,6.2,9.7,2,7.5-4.4,2.6,7.3,9.2,1.9,4.3,5.9,4.8,7.6,9.3.1-.6-14.9-3.4,2.5-8.4-5.4-3.2-2.4,1.9-13.9,2.5-16.4-2.6-6.1,3.6-8.8,3.3-1.7,16.4-2.3,2.1.6.6-2.3-3.4-3.7-1.5-7.6-7.3-7.6-4.1-9.9,2.3-5.8-3.2-7.8,2.4-22.1.1.2-.1-2.4-3-6.3,1.2-7.6,1.7-1,.5-8.3,3.5-3.8.1-10.5,2.9-5.3.6-11.1,2.6-6.4,4.6-7.2,4.7-3.7,3.9-4.9-4.9-1.9.6-16.1h0l-10.9-9.2-2.9-5.9-6.8,2.9-5.7-.9-3.2,2.3-5.5-1.7-7.5-11.4-4,1.5-7.9-.4Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Congo-2" data-name="Congo" transform="translate(891.6 506.2)">
+      <g transform="matrix(1, 0, 0, 1, -358.3, -472.2)" filter="url(#Congo)">
+        <path id="Congo-3" data-name="Congo" d="M521.5,468.8l-7.9-.7-8.2-2.4-7.3,7.4-6.3,12.8-.9,7.5-9.7-3.3-9.9-3.6-15.4-.6L455,492l3.4,7.1,9.1-1.1,3.1,2.7-5.3,16.1,5.8,8.2,1.3,10.8-1.6,9.2-3.7,6.5-10.8-.6-6.5-6.6-1,6.1-8.3,1.7-4.2,3.5,4.6,9.1-9.3,7.7,9.9,14.6,5-6,3.7-2.3,4.6,4.8,3.2,1.4,4.2-5.3,6.6.1.8,3.9,4.5,2.5,7.2-8.7,7.2-6.8,3.1-4.4-.3-11.4,5.3-13.4,5.6-7.1,8.1-6.7,1.4-4.4.3-5.1,2-4.8-.7-7.8,1.5-12.3,2.4-8.6,3.6-7.4.7-8.4Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 533.3, 34)" filter="url(#Djibouti)">
+      <path id="Djibouti-2" data-name="Djibouti" d="M820.3,358.7l-5.3-3.8,6.8-3.3.1-5.7-3-4.3-3.6,3.4-5.2-1.2-4,6.1-3.9,6.5,1.1,3.8.3,4.2,6.8.2,2.9-.9,2.8,2.4,4.2-7.4Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+    </g>
+    <g id="Algeria-2" data-name="Algeria" transform="translate(653.5 43.8)">
+      <g transform="matrix(1, 0, 0, 1, -120.2, -9.8)" filter="url(#Algeria)">
+        <path id="Algeria-3" data-name="Algeria" d="M392.4,5.7l-7.8.8-4.8-3.2-12.2.1L357,8.9l-5.8-2.1L332.3,8l-19.4,2.5-11,4.3-7.2,5.8L282.3,23l-11.1,7.7,4.2,9,.7,8.4L280,62.8l3.1,2.9-2.2,5.4-15.2,2.3-5.4,5.1-6.7,1.2L253,89.9l-13.8,5.4-4.6,7L225,106l-11.8,2.1L194,118.3l-.2,16.3v1l-.3,2.7,44.1,33.5,40,30.2L318,232.2l2.9,6.4,7.5,4,5.5,2.2.2,8.8,13.3-1.3,16.9-6.2L398.8,219l40.5-26.4-5.4-8.7-9.6-6.4-5.5,2.5-4.3-7.7-.6-5.9-7.2-10.1,4.6-5.8-1.3-8.7,1.4-7.6-1-6.3,1.8-11.3-.8-6.4L407.3,98l-5.7-24.7-7.3-5.6-.2-3.3-9.7-8.3-1.3-10.4,7-7.8,2.4-11.6-2.3-13.4,2.2-7.2Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Egypt-2" data-name="Egypt" transform="translate(1045.9 120.9)">
+      <g transform="matrix(1, 0, 0, 1, -512.6, -86.9)" filter="url(#Egypt)">
+        <path id="Egypt-3" data-name="Egypt" d="M628.8,88.1l-11.9-4-11.5-3.7-15.6.2-3.7,6.6,2.2,5.9-2.4,8.5,4.2,11.2L593,162l2.2,50.9H737.1l-2.2-2.8-14.7-12.4-.9-9,2.2-2.4L709.9,171l-4.4-7.9-4.9-7.5L690.1,134l-8.4-13.9-6.1-14.5,1.1-1.3,10.1,19.8,5.8,6.2,4.3,4.4,2.5-2.4,2.7-7.2,1.6-10.4,2.8-5.6-1.5-3.5-8.5-20.1h0l-5.4,3.4-9.2-.8-9.6-3.2L670,89.4l-3.8-6.8-8.5-1.8L647.5,82,643,85.9l-8.6,4.4-5.6-2.2Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Eritrea-2" data-name="Eritrea" transform="translate(1195.7 308.8)">
+      <g transform="matrix(1, 0, 0, 1, -662.4, -274.8)" filter="url(#Eritrea)">
+        <path id="Eritrea-3" data-name="Eritrea" d="M777.6,303.8l-7-6.8-4-12.7-7.8-16-5.7,7.9-8.8,2.3-3.6,4.2-.7,9.2-4.3,20.3,1.5,5.6,14.3,2.9,3.3-10.4,7.6,6.3,7-3.2,3,2.9,8.3.1,10.8,5.6,3.4,4.8,5.5,4.4,5.4,8.1,4.3,4.5,5.2,1.2,3.6-3.4-6.2-4.2-4-4.7-6.9-8-7.1-7.9-17.1-13Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Ethiopia-2" data-name="Ethiopia" transform="translate(1157.7 350.8)">
+      <g transform="matrix(1, 0, 0, 1, -624.4, -316.8)" filter="url(#Ethiopia)">
+        <path id="Ethiopia-3" data-name="Ethiopia" d="M754.8,310.3l-3.3,10.4-14.3-2.9-1.4,11.9-4.5,13.6-7.1,6.8-4.8,10.6-1.1,5.7-5.6,3.8-3.3,14.5.1,1.7.4,10.8-1.8,4.2-6.4.3-4,7.9,7.5,1,6.3,6.7,2.2,5.6,5.7,3.2,7.4,15,6.4,2.4.1,7.7,4.2,4.6H746l15.7,11.7,3.8.2,2.9-.4,2.7,1.6,8.2,1.1,3.5-5.8,11.1-5.8,4.9,4.7h8.4l3.3-4.4,7.8-.2,10.7-9.8,15.9-.6,33.5-41.5-10.3.1-40.3-16.4-4.8-5-4.6-6.6-4.8-7.7,2.5-4.9-2.8-2.4-2.9.9-6.8-.2-.3-4.2-1.1-3.8,3.9-6.5,4-6.1-4.3-4.5-5.4-8.1-5.5-4.4-3.4-4.8-10.8-5.6-8.3-.1-3-2.9-7,3.2-7.6-6.3Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Gabon-2" data-name="Gabon" transform="translate(863.7 525.6)">
+      <g transform="matrix(1, 0, 0, 1, -330.4, -491.6)" filter="url(#Gabon)">
+        <path id="Gabon-3" data-name="Gabon" d="M455.9,485.9l-1.5-.7-7.3,1.8-7.4-1.9-5.8.9.1,16.7-17.7-.2-4.2.8-2.4,10.3-3,10.1-2.7,4.4-.3,4.6L411,547l8.1,11.4,12.5,14,9.3-7.7-4.6-9.1,4.2-3.5,8.3-1.7,1-6.1,6.5,6.6,10.8.6,3.7-6.5,1.6-9.2L471.1,525l-5.8-8.2,5.3-16.1-3.1-2.7-9.1,1.1L455,492l.9-6.1Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Ghana-2" data-name="Ghana" transform="translate(716.6 404.3)">
+      <g transform="matrix(1, 0, 0, 1, -183.3, -370.3)" filter="url(#Ghana)">
+        <path id="Ghana-3" data-name="Ghana" d="M296.4,364.9l-5.6-1.1-3.9,2.2-5.4-1-21.1.6-.3,7.9,1.6,10.4,3.2,19.7-5.1,11.6-3.2,15.6,5.2,11.9-.5,5.5,10.9,3.9,11-4,6.7-4.7,19.2-8.1-2.8-4.9-3.2-8.8-1-6.8,2.7-12.5-3-5-1.2-10.9V376.3l-5.1-7.1.9-4.3Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Guinea-2" data-name="Guinea" transform="translate(572.2 383.7)">
+      <g transform="matrix(1, 0, 0, 1, -38.9, -349.7)" filter="url(#Guinea)">
+        <path id="Guinea-3" data-name="Guinea" d="M156.4,345.2l-1.8.7-6.6-1.1-.9,1.6-2.7.3-8.7-3.4-5.8-.1-.3,4.7-1.3,1.4.9,4.6-1.9,1.8-2.7.1-3.2,2.3-3.7-.3-5.5,6.8,3.6,2.2,1.7,3.1,1.3,6.1,3,2.7,3.1,1.8,4.7,5.4,5.3,8.2,6.5-6.1,1.5-3.8,2.1-3,3.3-.3,2.9-2.6h9.7l3.3,5,2.6,5.8-.4,4,1.9,3.6-.1,5.1,3.3-.8,2.6-.3,3.2-1.6,5.1,8.5-.9,5.6,2.4,2.9,3.4.1,2.6-5.6,3.4.4h1.9l.8-6.1-.9-2.7,1.1-1.9,4.6-1.6-3-11.1-2.8-5.7,1-4.7,2.5-1.1-3.7-4,.7-4.1-1.6-1.6-2.6,1.3.6-4.5,2.5-3.5-5-5.8-1.4-3.8-2.7-3.1-2.4-.3-2.9,1.9-4,1.8-3.3,3-5.2-1.1-3.3-3.5-2-.4-3.2,1.8h-2l-.6-5Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 533.3, 34)" filter="url(#Gambia)">
+      <path id="Gambia-2" data-name="Gambia" d="M91.9,335.4l11,.2,3-1.9,2.2-.1,4.5-3.2,5.2,2.9,5.2.3,5.3-3.1-2.4-4-4,2.3-3.8-.1-4.7-3.4-3.8.2-2.8,3.3-13.2.4-1.7,6.2Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+    </g>
+    <g id="Guinea-Bissau-2" data-name="Guinea-Bissau" transform="translate(553.7 383.1)">
+      <g transform="matrix(1, 0, 0, 1, -20.4, -349.1)" filter="url(#Guinea-Bissau)">
+        <path id="Guinea-Bissau-3" data-name="Guinea-Bissau" d="M129.9,343.2l-22.4-.6-3.3,1.6-4-.5L93.7,346l.7,2.9,3.7,3L98,354l2.7,3.9,5.1.9,6.4,5.8,5.5-6.8,3.7.3,3.2-2.3,2.7-.1,1.9-1.8-.9-4.6,1.3-1.4.3-4.7Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Eq._Guinea-2" data-name="Eq. Guinea" transform="translate(869.9 526.2)">
+      <g transform="matrix(1, 0, 0, 1, -336.6, -492.2)" filter="url(#Eq._Guinea)">
+        <path id="Eq._Guinea-3" data-name="Eq. Guinea" d="M433.9,486l-19.9-.3-4.1,15.5,2.2,2.1,4.2-.8,17.7.2-.1-16.7Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Kenya-2" data-name="Kenya" transform="translate(1170.4 481.6)">
+      <g transform="matrix(1, 0, 0, 1, -637.1, -447.6)" filter="url(#Kenya)">
+        <path id="Kenya-3" data-name="Kenya" d="M807.2,463.1h-8.4l-4.9-4.7-11.1,5.8-3.5,5.8-8.2-1.1-2.7-1.6-2.9.4-3.8-.2L746,455.8h-8.5l-4.2-4.6-.1-7.7-6.4-2.4-8.1,9.1-7.4,8.3,5.9,9.6,1.5,7,5.5,15.8L719.8,501l-5.9,9.2-3.5,5.6v.7l2.9,5.2-.8,10.3,44.1,28.2.7,8L774.6,582l5-4.6,2.5-9.2,4-5.5,1.9-9.8,4.6-1,3.1-5.8,8.6-5.5-7.2-11.4-.4-50.4,10.5-15.7Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Liberia-2" data-name="Liberia" transform="translate(616.7 439.6)">
+      <g transform="matrix(1, 0, 0, 1, -83.4, -405.6)" filter="url(#Liberia)">
+        <path id="Liberia-3" data-name="Liberia" d="M193.3,411l-3.4-.4-2.6,5.6-3.4-.1-2.4-2.9.9-5.6-5.1-8.5-3.2,1.6-2.6.3-5.7,6.5-5.5,7.5-.7,4-2.9,4.4,8.1,8.9,10.4,7.6,11,10.5,12.6,6.6,3.2-.1,1-11.4,1.1-1.7-.3-5.5-5.2-5.8-3.8-.9-3.6-3.8,2.7-6.1-1.2-6.7.6-4Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Libya-2" data-name="Libya" transform="translate(866.7 99.5)">
+      <g transform="matrix(1, 0, 0, 1, -333.4, -65.5)" filter="url(#Libya)">
+        <path id="Libya-3" data-name="Libya" d="M589.8,80.6l-3.1-4.5L575,74.5l-3.9-2.4h-4.4l-4.4-6.2-15.9-2.8-7.9,1.8-7.9,6.5-3.3,6.7,3.4,10.6L525.4,95l-5.5,3.6L507,91.7,490.3,86l-10.6-2.7L473.6,71l-15.7-6.1-9.8-2.3-4.8,1.2L429.5,59l-.3,10.6-5.6,4L420.2,78l-7.9,5.3,1.5,5.7-.9,5.8L407.3,98l4.1,12.2.8,6.4-1.8,11.3,1,6.3-1.4,7.6,1.3,8.7-4.6,5.8,7.2,10.1.6,5.9,4.3,7.7,5.5-2.5,9.6,6.4,5.4,8.7,19,6,6.9,7.5,8.3-5.1,11.9-7.6,48.4,26.5,48.7,26.5-.1-5.8h13.8l-1-27.7L593,162l-2.9-49.2-4.2-11.2,2.4-8.5-2.2-5.9,3.7-6.6Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Lesotho-2" data-name="Lesotho" transform="translate(1073 954.2)">
+      <g transform="matrix(1, 0, 0, 1, -539.7, -920.2)" filter="url(#Lesotho)">
+        <path id="Lesotho-3" data-name="Lesotho" d="M625.3,939.9l2.5-4.4,6.7-2.2,2.4-4.5,4.1-6.7-3.8-4.2-4.8-4.2-5.7,2.8-6.8,5.4-6.9,8.7,8,10.6,4.3-1.3Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Morocco-2" data-name="Morocco" transform="translate(552.3 62.9)">
+      <g transform="matrix(1, 0, 0, 1, -19, -28.9)" filter="url(#Morocco)">
+        <path id="Morocco-3" data-name="Morocco" d="M271.2,30.7l-5-.1-11.9-3.1-11,.9-6.8-5.9-8.5-.1L224.2,31l-8,14.5-8.7,5.7-11.8,6.4L188,66.9l-1.8,7.3L181.4,86l2.5,17.2-10.1,11.5-6,3.7-9.6,9.4-11,1.6-6.1,5.3-.2.2L133,149l-8.1,5.1-4.5,8.5-.5,7.4-3.4,8.1-4,2.2-6.9,8.8-4.4,9.8.7,4.6-4.1,7.3-4.7,3.7-.8,6.4.2.1,27-1.1,1.6-5,5-6.2,4.4-19.1,16.9-15,6-17.4,3.7-1.1,4.2-10.8,10-1.4,4.2,1.8h5.4l3.9-3.2,7.3-.4-.1-7.5h1.8l.2-16.3,19.2-10.2L225,106l9.6-3.7,4.6-7L253,89.9l.6-10.2,6.7-1.2,5.4-5.1,15.2-2.3,2.2-5.4L280,62.8l-3.9-14.7-.7-8.4-4.2-9Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Madagascar-2" data-name="Madagascar" transform="translate(1273.5 724.4)">
+      <g transform="matrix(1, 0, 0, 1, -740.2, -690.4)" filter="url(#Madagascar)">
+        <path id="Madagascar-3" data-name="Madagascar" d="M902.9,704.8l-2.5-9.1-3-5.9-3.9-5.9-4.3,6.2-.7,8.3-7.1,9.6-5.1-1.7,1.3,6-4,6.9-10.4,8.5-7.3,7.9-5.4.2-4.6,2.5-6.9,2.8-6,.6-2.2,8.7-4.7,7.8.2,12.7,1.7,8.7,2.4,6.6-1.7,8.8-6.4,10.5-.3,4.6-5.7,2.4-2.8,10,.4,9.9,3.4,11-.1,12.3,2.6,7.3,9.1,5,6.5,3.5,10.9-5.8,9.9-3.3,6.8-16.1,6.1-19.2,9.3-26.2,7.3-19.1,5.9-16.1,1.6-11.7,3.5-3.2,1.5-5.9-1.7-10.2,2.6-4.1,3.5,8.1,2.4-4.1,1.7-6.6-2.8-6.5Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Mali-2" data-name="Mali" transform="translate(608.8 212.3)">
+      <g transform="matrix(1, 0, 0, 1, -75.5, -178.3)" filter="url(#Mali)">
+        <path id="Mali-3" data-name="Mali" d="M347.4,252.3l-13.3,1.3-.2-8.8-5.5-2.2-7.5-4-2.9-6.4L277.6,202l-40-30.2-18.2.2,5.1,59.7,5.4,59.7,2,1.8-2.7,9.6-48.5.2-1.9,3.1-4.6-.9-6.9,2.7-8.4-3.8-3.8.3-2.2,8.2-4.1,2.5.4,8.6,2.3,7.9,4.5,3.9,1,5.3-.6,4.4.6,5h2l3.2-1.8,2,.4,3.3,3.5,5.2,1.1,3.3-3,4-1.8,2.9-1.9,2.4.3,2.7,3.1,1.4,3.8,5,5.8-2.5,3.5-.6,4.5,2.6-1.3,1.6,1.6-.7,4.1,3.7,4,1.6-1.3,3.3,2.1,9.4.1,2.3-4,2.1.3,3.5-1.6,1.8,5.9,2.9-1.7,5-2.1-.8-8,3.4-5.9-.3-4.7,9.7-11.4,1.8-9.5,3.4-3.4,5.8,1.9,5.1-2.8,1.7-3.6,9.4-6.2,2.3-4.3,11.3-5.8,6.7-1.9,3,2.6h7.8l7.7-.6,4.5-4.9,16.5-1.2,10.7-2.2,1-8.5,6.6-9.2-.3-31.9Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Mozambique-2" data-name="Mozambique" transform="translate(1121.4 700.5)">
+      <g transform="matrix(1, 0, 0, 1, -588.1, -666.5)" filter="url(#Mozambique)">
+        <path id="Mozambique-3" data-name="Mozambique" d="M788.2,666.2l-1.7-6.2h0l-10,8.1-13.4,5.3-7.3-.2-4.5,4.2-8.4.3-3.3,1.8-14.4-3.9-4.7.5-3.3,13.1,1.4,15.8h.7l4.2,4.4,4.6,10,.3,17.8-5.4,3-4.1,9.6-7.5-8.6-.5-9.7,2.9-6.5-.5-5.5-4.7-3.5-3.3,1.2-6.8-6.6L661.4,722l.8,9.9.6,5.1,10-.3,5.5,3,2.5,3.4,5.7,1,6.1,4.4-.8,17.5-2.8,9.6L688,786l1.7,4.1-1.7,8.1-1.9,1.3-3.6,9.9-13.4,15.7,4.7,19.5,2.5,9.9-3,15.4.7,5,1.3,6.2.6,6.1,9,.1,1.5-7.3-2.9-.9-.6-5.8,5.5-5.2,14.8-7.5,10.1-4.6,5.3-5,2.1-5.7-2.7-2.4,2.4-6.4,1.1-13.6-2.2.7.1-4.1-1.9-8.1-5.2-10.5,1.6-9.9,5.1-3.2,8.9-9.8,4.7-2.5L747,760.6l14-6.7,11.3-5.3,8.1-8.5,5.2-9.6,4.1-9.9-1.8-6.8.4-21.6-1-12.2.9-13.8Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Mauritania-2" data-name="Mauritania" transform="translate(551.7 178.8)">
+      <g transform="matrix(1, 0, 0, 1, -18.4, -144.8)" filter="url(#Mauritania)">
+        <path id="Mauritania-3" data-name="Mauritania" d="M237.6,171.8l-44.1-33.5-.5,20.9-38.9-.7-.4,35.4-11.2,1.3-3.1,7.1,1.9,20-46.9-.1-2.7,4.6,6.1,6,3,6.5-1.4,6.9,1.3,6.9,1,13.7-1.8,13-3.5,6.8.9,7.5,4.2-4.5,6,1.2,5.9-3,6.8-.1,5.7,4,7.9,3.7,7.2,10.2,7.8,9.5,4.1-2.5,2.2-8.2,3.8-.3,8.4,3.8,6.9-2.7,4.6.9,1.9-3.1,48.5-.2,2.7-9.6-2-1.8-5.4-59.7L219.4,172l18.2-.2Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Malawi-2" data-name="Malawi" transform="translate(1152.3 685.5)">
+      <g transform="matrix(1, 0, 0, 1, -619, -651.5)" filter="url(#Malawi)">
+        <path id="Malawi-3" data-name="Malawi" d="M714.6,711.7l.3-5.2-2.7-4.1.4-6-3.3-10.2,3.7-7.7-.2-16.7-4.1-8.9.4-1.5h0l-2.3-3.8L694.9,645l5.6,6.2,2.8,11.7-2.2,3.8-2.7,11.2,2,11.5-4,4.8L692.3,707l6.2,3.6,6.8,6.6,3.3-1.2,4.7,3.5.5,5.5-2.9,6.5.5,9.7,7.5,8.6,4.1-9.6,5.4-3-.3-17.8-4.6-10-4.2-4.4h-.7l.1,1.9,2.3.5,2.2,7.4-.4,1.7-4.1-5.3-2.2,3.4-1.9-2.9Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Namibia-2" data-name="Namibia" transform="translate(897.6 792.2)">
+      <g transform="matrix(1, 0, 0, 1, -364.3, -758.2)" filter="url(#Namibia)">
+        <path id="Namibia-3" data-name="Namibia" d="M576,759.7l-22.4,5.7-29.1-2-8.2-6.6-48.8.6-1.9,1-7.1-6.3-7.8-.4-7.2,2.3-5.9,2.7.6,10.6,9.5,13.5,2.5,8.7,6,16.6,5.9,11.4,4.6,5.7,1.3,7.6-.1,16.5,3.4,21.3,2.6,10.1,2.2,13.4,4.3,10.1,8.3,10.5,6-6.8,4.5,3.7,1.7,6,5.2,1,7.3,2.6,6.4-1,10.8-7.1,2.2-51.1,1.4-40.4,11.8-.5,1.9-49.3,9-.4,18.7-4.9,4.4,5.7,7.9-5.4h3.6l6.9-3.1v-1.2l-4.7-3.1-7.8-.8-9.9,3.1Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Niger-2" data-name="Niger" transform="translate(759.7 233.1)">
+      <g transform="matrix(1, 0, 0, 1, -226.4, -199.1)" filter="url(#Niger)">
+        <path id="Niger-3" data-name="Niger" d="M458.3,198.6l-19-6L398.8,219l-34.5,27.1-16.9,6.2.3,31.9-6.6,9.2-1,8.5-10.7,2.2-16.5,1.2-4.5,4.9-7.7.6-1,6.7,1.6,6.3,6.9,9,.4,6.7,14,3.1-.3,9.5,4.1-4,4.3-.1,9.3,8,.8-12.4,3.5-5.5,1.6-8,3.2-3,13-1.6,12.2,5.1,4.6,5.3,6.1.2,5.8-3.4,14.7,7.1,6.2-.3,7.1-5.9,7.1.4,3.5-1.9,6.5.8,9.4,4,9.4-7.7,2.9.6,8.4,15.1,2.2-.3.4-4.4,3.4-.8,1.1-6.5-7.8-.3-.1-8.9-5.1-5.2,4.9-18.2,15.2-13,.2-18,4-28.1,2.5-6-5.1-4.7-.3-4.4-4.6-3.6L473.5,201l-8.3,5.1-6.9-7.5Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Nigeria-2" data-name="Nigeria" transform="translate(789 366)">
+      <g transform="matrix(1, 0, 0, 1, -255.7, -332)" filter="url(#Nigeria)">
+        <path id="Nigeria-3" data-name="Nigeria" d="M468.2,344.6l-2.2.3-8.4-15.1-2.9-.6-9.4,7.7-9.4-4-6.5-.8-3.5,1.9-7.1-.4-7.1,5.9-6.2.3-14.7-7.1-5.8,3.4-6.1-.2-4.6-5.3-12.2-5.1-13,1.6-3.2,3-1.6,8-3.5,5.5L340,356l-.5,4.6,2.8,8.2-2.4,5.6,1.3,3.7-5.9,8.5-3.7,4.3-2.3,8.7.3,8.8-.6,22.3h10.7l9.2-.1,8.6,9.1,4.1,10,6.5,8.6,9.8.3,4.7-3.1,4.6.8,12.7-5,3.1-9.8,5.7-13.4,3.6-.1,7.2-8.1,4.6-.2,6.9,5.7,8.3-4.7,1.1-5.7,2.7-5.6,1.9-7,6.4-5.7,2.4-9.7,2.6-3.1,1.6-7.2,3.1-8.8,10.2-10.7.5-4.6,1.3-2.5-4.9-5.5Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Rwanda-2" data-name="Rwanda" transform="translate(1110.7 573.5)">
+      <g transform="matrix(1, 0, 0, 1, -577.4, -539.5)" filter="url(#Rwanda)">
+        <path id="Rwanda-3" data-name="Rwanda" d="M667.9,533l-7.4,4.3-2.9-1.4-3.5,3.8-.5,8.3-1.7,1-1.2,7.6,7.4,1.1,3.8-7.9,6.5.9h0l3.5-1.8.8-8.1-4.8-7.8Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="W._Sahara-2" data-name="W. Sahara" transform="translate(551.7 175.1)">
+      <g transform="matrix(1, 0, 0, 1, -18.4, -141.1)" filter="url(#W._Sahara)">
+        <path id="W._Sahara-3" data-name="W. Sahara" d="M193.8,134.6H192l.1,7.5-7.3.4-3.9,3.2h-5.4l-4.2-1.8-10,1.4-4.2,10.8-3.7,1.1-6,17.4-16.9,15-4.4,19.1-5,6.2-1.6,5-27,1.1-.2-.1-.6,5.9,2.7-4.6,46.9.1-1.9-20,3.1-7.1,11.2-1.3.4-35.4,38.9.7.5-20.9.3-2.7v-1Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Sudan-2" data-name="Sudan" transform="translate(1022.3 253.4)">
+      <g transform="matrix(1, 0, 0, 1, -489, -219.4)" filter="url(#Sudan)">
+        <path id="Sudan-3" data-name="Sudan" d="M740,291.9l.7-9.2,3.6-4.2,8.8-2.3,5.7-7.9-6.9-5.1-4.8-3.4-5.3-16.5L739.3,229l2.5-2.5-4.7-13.6H595.2l1,27.7H582.4l.1,5.8,2.4,54.9-10.5-.9-5.2,10.2-3,8.5,2.6,3.2-3.8,4.3,1.5,5.7-3,5.8-1.2,5,4.3-.8,2.6,5.4.3,8,4.6,4.1-.1,3.4,1.5,5.9,7.2,8.6.1,5.7-1.9,5.7.9,4.3,4.2,4,1,.7,3.8-1.6,4.1-2.6,2.9-12.3,3.2-6.4,8.8-1.9,2.1,3.8,6.5,8,3.3,1.2,4.4-2.3,8.7.4,1.8,2.9h12.1l.3-2.9,6.3-2.6,1.1-4,4.6-2.9,10.4,8.1,6.2-1.4,5.8-10,6.5-7.6-1.3-8.3-3-4,7.3-.8.7-3,5.7.9L698.1,359l1.7,10,6.5,5.5,1.5,4.7v6.9l1.7.3-.1-1.7,3.3-14.5,5.6-3.8,1.1-5.7,4.8-10.6,7.1-6.8,4.5-13.6,1.4-11.9-1.5-5.6,4.3-20.3Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="S._Sudan-2" data-name="S. Sudan" transform="translate(1047 388.4)">
+      <g transform="matrix(1, 0, 0, 1, -513.7, -354.4)" filter="url(#S._Sudan)">
+        <path id="S._Sudan-3" data-name="S. Sudan" d="M707.8,379.2l-1.5-4.7-6.5-5.5-1.7-10,1.2-10.2-5.7-.9-.7,3-7.3.8,3,4,1.3,8.3-6.5,7.6-5.8,10-6.2,1.4L661,374.9l-4.6,2.9-1.1,4-6.3,2.6-.3,2.9H636.6l-1.8-2.9-8.7-.4-4.4,2.3-3.3-1.2-6.5-8-2.1-3.8-8.8,1.9-3.2,6.4-2.9,12.3-4.1,2.6-3.8,1.6,8.4,5.4,6.8,5.5.1,4.5,8.3,7.2,5.2,6L619,435l9.2,5.5,2,4.4,7.5,11.4,5.5,1.7,3.2-2.3,5.7.9,6.8-2.9,2.9,5.9,10.9,9.2h0l5-3.8,7.8,3.1,9.8-3.3,8.6.1,7.4-6.4,7.4-8.3,8.1-9.1-7.4-15-5.7-3.2-2.2-5.6-6.3-6.7-7.5-1,4-7.9,6.4-.3,1.8-4.2-.4-10.8-1.7-.3v-6.9Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Senegal-2" data-name="Senegal" transform="translate(542.8 328.2)">
+      <g transform="matrix(1, 0, 0, 1, -9.5, -294.2)" filter="url(#Senegal)">
+        <path id="Senegal-3" data-name="Senegal" d="M148.8,315.1l-7.8-9.5-7.2-10.2-7.9-3.7-5.7-4-6.8.1-5.9,3-6-1.2-4.2,4.5-3,7.1-6.1,9.7-5.4,2.6,6,4.9,4.8,10.8,13.2-.4,2.8-3.3,3.8-.2,4.7,3.4,3.8.1,4-2.3,2.4,4-5.3,3.1-5.2-.3-5.2-2.9-4.5,3.2-2.2.1-3,1.9-11-.2L93.7,346l6.5-2.3,4,.5,3.3-1.6,22.4.6,5.8.1,8.7,3.4,2.7-.3.9-1.6,6.6,1.1,1.8-.7.6-4.4-1-5.3-4.5-3.9-2.3-7.9-.4-8.6Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Sierra_Leone-2" data-name="Sierra Leone" transform="translate(594.9 418.8)">
+      <g transform="matrix(1, 0, 0, 1, -61.6, -384.8)" filter="url(#Sierra_Leone)">
+        <path id="Sierra_Leone-3" data-name="Sierra Leone" d="M171.5,401l-3.3.8.1-5.1-1.9-3.6.4-4-2.6-5.8-3.3-5h-9.7l-2.9,2.6-3.3.3-2.1,3-1.5,3.8-6.5,6.1,1.4,10.3,2.1,5,6.3,7.4,8.7,5.6,3.3,1,2.9-4.4.7-4,5.5-7.5,5.7-6.5Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Swaziland-2" data-name="Swaziland" transform="translate(1119.5 912.8)">
+      <g transform="matrix(1, 0, 0, 1, -586.2, -878.8)" filter="url(#Swaziland)">
+        <path id="Swaziland-3" data-name="Swaziland" d="M674,874.9l-5.8-2.6-3.5,1-1.4,4-3.6,5.2-.2,4.8,6.6,7.5,7-1.5,2.8-6.1-.6-6.1-1.3-6.2Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Chad-2" data-name="Chad" transform="translate(920.1 233.9)">
+      <g transform="matrix(1, 0, 0, 1, -386.8, -199.9)" filter="url(#Chad)">
+        <path id="Chad-3" data-name="Chad" d="M582.5,246.4l-48.7-26.5-48.4-26.5L473.5,201l3.4,21.5,4.6,3.6.3,4.4,5.1,4.7-2.5,6-4,28.1-.2,18-15.2,13-4.9,18.2,5.1,5.2.1,8.9,7.8.3-1.1,6.5,4.9,8.9,1,9.1-.4,9.2,6.8,12.6-6.8-.1-3.4.9-5.6-1.3-2.5,6.5,7.2,8.1,5.3,2.3,1.8,5.7,3.9,9.6-1.8,3.7,10-1,2.2-3.6,2.1.3,3,3.1,15.3-5.3,5.1-5.4,6.3-4.8-1.2-4.9,3.4-1.2,11.8.8,11.3-6.4,8.6-15.1,6-5.6,7.7-2.3.1-3.4-4.6-4.1-.3-8-2.6-5.4-4.3.8,1.2-5,3-5.8-1.5-5.7,3.8-4.3-2.6-3.2,3-8.5,5.2-10.2,10.5.9-2.4-54.9Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Togo-2" data-name="Togo" transform="translate(755.5 405.4)">
+      <g transform="matrix(1, 0, 0, 1, -222.2, -371.4)" filter="url(#Togo)">
+        <path id="Togo-3" data-name="Togo" d="M307.1,365.2l-10.7-.3-.9,4.3,5.1,7.1v10.1l1.2,10.9,3,5-2.7,12.5,1,6.8,3.2,8.8,2.8,4.9,9.8-3-3-9.5.5-31.8-2.5-2.8-.4-6.8-4.3-4.9-3.7-4.1Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Tunisia-2" data-name="Tunisia" transform="translate(843.1 40.5)">
+      <g transform="matrix(1, 0, 0, 1, -309.8, -6.5)" filter="url(#Tunisia)">
+        <path id="Tunisia-3" data-name="Tunisia" d="M429.5,59,425,56.8l-3.2-6.6-6-.2-2.4-7.6,7.3-7,1.1-12.1-4.1-3.5-.2-6.5,5.5-7-.9-2.7-9.5,5.2.1-7.1L404.6,0,392.4,5.7l-2.2,7.2,2.3,13.4-2.4,11.6-7,7.8,1.3,10.4,9.7,8.3.2,3.3,7.3,5.6L407.3,98l5.6-3.2.9-5.8-1.5-5.7,7.9-5.3,3.4-4.4,5.6-4,.3-10.6Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Tanzania-2" data-name="Tanzania" transform="translate(1117.4 571.8)">
+      <g transform="matrix(1, 0, 0, 1, -584.1, -537.8)" filter="url(#Tanzania)">
+        <path id="Tanzania-3" data-name="Tanzania" d="M672.2,531.3l-4.3,1.7,4.8,7.8-.8,8.1-3.5,1.8h0l.6,5.4,2.6,3.2.1,4.5-3,2.9-4.9,7.2-4.5,5-1.2.2-.7,5.9,2.3,2-.5,5.9,2.3,5.5-2.9,5.3,9.7,9.4.8,8.5,5.9,14.2h0l.6.4,4.8,2.3,7.7,2.4,6.8,4.1,11.9,2.6,2.3,3.8h0l.8-2.7,6.2,7.4.6,14.5,3.9,5.3-.1.2,4.7-.5,14.4,3.9,3.3-1.8,8.4-.3,4.5-4.2,7.3.2,13.4-5.3,10-8.1h0l-4.4-3-4.7-13.6-4-8.7,1-6.6-.6-4.2,3.5-8.4-.3-3.6-7.7-5-.6-7.8,5.9-17.1-17.3-13.8-.7-8L712.5,532h0l-6,6.1-4.1,6.3,4.8,4.7-7,3.4-1.5-1.6-7.1.9-5.5,3.1-3.3-5.4,2.3-9.7.5-8.3h0l-13.4-.2Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Uganda-2" data-name="Uganda" transform="translate(1117.6 499)">
+      <g transform="matrix(1, 0, 0, 1, -584.3, -465)" filter="url(#Uganda)">
+        <path id="Uganda-3" data-name="Uganda" d="M711.3,458.5l-7.4,6.4-8.6-.1-9.8,3.3-7.8-3.1-5,3.8h0l-.6,16.1,4.9,1.9-3.9,4.9-4.7,3.7-4.6,7.2-2.6,6.4-.6,11.1-2.9,5.3-.1,10.5,2.9,1.4,7.4-4.3,4.3-1.7,13.4.2h0l-.7-5.3,5.7-8.1,7.7-2,5.2-3.3,6.3,2.7.6,1v-.7l3.5-5.6,5.9-9.2,4.4-10.1-5.5-15.8-1.5-7-5.9-9.6Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="South_Africa-2" data-name="South Africa" transform="translate(948.7 863.4)">
+      <g transform="matrix(1, 0, 0, 1, -415.4, -829.4)" filter="url(#South_Africa)">
+        <path id="South_Africa-3" data-name="South Africa" d="M522.3,999l5.3-.3,7.5-5.3,10-2.2,12.3-5.5,4.7.7,7.2-1.7,12.3,2.7,5.9-2.6,6.9,2,1.8-3.8,6-.8,12.6-5.3,9.3-6.3,8.9-8.3,14.4-14.2,7.5-9.9,3.9-7.1,5.5-7,2.5-2,8.6-7,3.5-6.2,2.3-11.5,3.7-10.1-9-.1-2.8,6.1-7,1.5-6.6-7.5.2-4.8,3.6-5.2,1.4-4,3.5-1,5.8,2.6-.7-5,3-15.4-2.5-9.9-4.7-19.5-6.3-1.3-4.1,1.6-5.7-2.3-4.9-.2-17.3,10.2-11.2,10.3-4.4,9.3-3.9,5.2-6.5,1.1-2.4,6.6-1.4,4.3-7.8,3.2-9.6-.6-5.5-3.9-4.9-1.7-6,3.2-3.2,6.6-5.8,4.2-6.2,6.2-8.5,1.4-2.5-4.9,1.5-8.4L536,862l-3.2-2-2.2,51.1-10.8,7.1-6.4,1-7.3-2.6-5.2-1-1.7-6-4.5-3.7-6,6.8,7.7,17.9v.1l5.4,11.7,6.9,12.8-.2,10.6-3.9,2.5,3.2,9.3-.5,8.1,1.3,3.8.7-1.9,4.6,6.2,3.8.2,4.6,5Zm103-59.1-4.3,1.3-8-10.6,6.9-8.7,6.8-5.4,5.7-2.8,4.8,4.2,3.8,4.2-4.1,6.7-2.4,4.5-6.7,2.2-2.5,4.4Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Zambia-2" data-name="Zambia" transform="translate(1020.6 671.8)">
+      <g transform="matrix(1, 0, 0, 1, -487.3, -637.8)" filter="url(#Zambia)">
+        <path id="Zambia-3" data-name="Zambia" d="M671.3,636l-4.1-1.1.7-3-2.1-.6-16.4,2.3-3.3,1.7-3.6,8.8,2.6,6.1-2.5,16.4-1.9,13.9,3.2,2.4,8.4,5.4,3.4-2.5.6,14.9-9.3-.1-4.8-7.6-4.3-5.9-9.2-1.9-2.6-7.3-7.5,4.4-9.7-2-3.9-6.2-7.7-1.3-5.7.3-.6-4.3-4.2-.3,1.2,4.3-1.5,6.7,2,6.5-2,5.2,1,4.7-25.3-.1-1.6,44,7.8,11.3,7.6,8.6,9.9-3.1,7.8.8,4.7,3.1v1.2l2.2,1,13.4,1.5,3.8,1.6,4.1-.3,7-9,10.9-11.4,4.4-1,1.7-4.8,7-5.5,9.3-1.9-.8-9.9,37.1-11.4-6.2-3.6,4.1-12.8,4-4.8-2-11.5,2.7-11.2,2.2-3.8-2.8-11.7-5.6-6.2-6.8-4.1-7.7-2.4-4.8-2.3-.6-.4h0l.9,2.3-2,.8-2.6-2.9Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Zimbabwe-2" data-name="Zimbabwe" transform="translate(1060.6 772.4)">
+      <g transform="matrix(1, 0, 0, 1, -527.3, -738.4)" filter="url(#Zimbabwe)">
+        <path id="Zimbabwe-3" data-name="Zimbabwe" d="M669.1,825.1l13.4-15.7,3.6-9.9,1.9-1.3,1.7-8.1L688,786l1-10.4,2.8-9.6.8-17.5-6.1-4.4-5.7-1-2.5-3.4-5.5-3-10,.3-.6-5.1-9.3,1.9-7,5.5-1.7,4.8-4.4,1-10.9,11.4-7,9-4.1.3-3.8-1.6-13.4-1.5,4.2,11.1,2.3,2.4,3.5,8,13,15.2,5.1,1.5-.2,4.9,3.1,8.8,9.2,2.1,7.3,6.2,4.9.2,5.7,2.3,4.1-1.6,6.3,1.3Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Somalia-2" data-name="Somalia" transform="translate(1256.7 391.4)">
+      <g transform="matrix(1, 0, 0, 1, -723.4, -357.4)" filter="url(#Somalia)">
+        <path id="Somalia-3" data-name="Somalia" d="M832.6,372.8l-5.7-5.8-2.5-5.7-4.1-2.6-4.2,7.4-2.5,4.9,4.8,7.7,4.6,6.6,4.8,5,40.3,16.4,10.3-.1-33.5,41.5-15.9.6-10.7,9.8-7.8.2-3.3,4.4-10.5,15.7.4,50.4,7.2,11.4,2.7-3.3,2.9-7.3,13.4-16.7,11.4-10.6L852.8,489l12.1-11.2L879,458.9l10.1-15.5,10-20.2,7-17.7,5.4-15.5,2.9-14.9,2.4-5-.4-7.3.8-8-.5-3.9-4.6.1-5.5,4.7-6.4,1.4-5.5,2.1-3.9.2h0l-6.9.5-4.2,2.6-6,.9-10.5,4.3L850,369.3l-11.3,3.5h-6.1Z" transform="translate(-73.3 6.5)" fill="#e7e7e7" stroke="#fff" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
