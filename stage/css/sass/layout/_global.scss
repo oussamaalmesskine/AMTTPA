@@ -58,7 +58,6 @@ header{
         color: #fff;
         margin-left: 10px;
         font-size: 1.4em;
- 
         @include large-devices {
             width: 80%;
         }
@@ -86,15 +85,21 @@ header{
             transition:width .5s ;
         }
         &:hover{
-            color: $maincolor;
+            color: $maincolor !important;
         }
         &:hover::before{
             width: $widthei - 10;
+            @include  large-devices{
+                width: 0%;
+            }
         }
         &.active{
             color: $maincolor !important;
             &::before{
                 width: $widthei - 10;
+                @include large-devices{
+                    width: 0%;
+                }
             }
         }
     }
@@ -187,5 +192,17 @@ hr:after {
 @keyframes blink {
     50% {
         border-color: transparent;
+    }
+}
+a.navbar-brand.black-brand.d-none {
+    display: none ;
+    @include large-devices{
+        display: block !important;
+    }
+}
+a.navbar-brand.white-brand {
+    display: block;
+    @include  large-devices{
+        display: none !important;
     }
 }

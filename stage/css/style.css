@@ -74,13 +74,19 @@ header {
       bottom: 0;
       transition: width 0.5s; }
     header .navbar-light .navbar-nav .nav-link:hover {
-      color: #f4c400; }
+      color: #f4c400 !important; }
     header .navbar-light .navbar-nav .nav-link:hover::before {
       width: 90%; }
+      @media (max-width: 1040px) {
+        header .navbar-light .navbar-nav .nav-link:hover::before {
+          width: 0%; } }
     header .navbar-light .navbar-nav .nav-link.active {
       color: #f4c400 !important; }
       header .navbar-light .navbar-nav .nav-link.active::before {
         width: 90%; }
+        @media (max-width: 1040px) {
+          header .navbar-light .navbar-nav .nav-link.active::before {
+            width: 0%; } }
   header i.fa.fa-search {
     right: 3%;
     color: #c7c7c7; }
@@ -150,6 +156,18 @@ hr:after {
 @keyframes blink {
   50% {
     border-color: transparent; } }
+a.navbar-brand.black-brand.d-none {
+  display: none; }
+  @media (max-width: 1040px) {
+    a.navbar-brand.black-brand.d-none {
+      display: block !important; } }
+
+a.navbar-brand.white-brand {
+  display: block; }
+  @media (max-width: 1040px) {
+    a.navbar-brand.white-brand {
+      display: none !important; } }
+
 .overlay {
   position: absolute;
   left: 0;
